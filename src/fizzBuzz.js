@@ -19,11 +19,11 @@ Fizzbuzz.prototype.isDivisibleByFifteen = function(number) {
 Fizzbuzz.prototype.says = function(number) {
   if (this.isDivisibleByFifteen(number)) {
     return "FizzBuzz";
-  }
-  if (this.isDivisibleByThree(number)) {
+  } else if (this.isDivisibleByThree(number)) {
     return "Fizz";
-  }
-  if (this.isDivisibleByFive(number)) {
+  } else if (this.isDivisibleByFive(number)) {
     return "Buzz";
+  } else {
+    return number;
   }
 };
