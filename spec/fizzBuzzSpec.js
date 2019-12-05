@@ -47,4 +47,16 @@ describe('Fizzbuzz', function() {
     });
   });
 
+  describe('when playing, says', function(){
+    it('"Buzz" when a number is divisible by 5', function(){
+      expect(fizzbuzz.says(5)).toEqual("Buzz");
+    });
+  });
+
+  describe('when playing, says', function(){
+    it('"FizzBuzz" when a number is divisible by 3 and 5', function(){
+      expect(fizzbuzz.says(15)).toEqual("FizzBuzz");
+    });
+  });
+
 });
