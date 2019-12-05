@@ -27,3 +27,11 @@ Fizzbuzz.prototype.says = function(number) {
     return number;
   }
 };
+
+/*
+in console:
+var fizzBuzz = new Fizzbuzz();
+for (var i = 1; i <= 100; i++) {
+console.log(fizzBuzz.says(i));
+}
+*/
