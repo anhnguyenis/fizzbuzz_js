@@ -1,1 +1,1 @@
-# thermostat challenge
+# fizzbuzz javascript challenge
